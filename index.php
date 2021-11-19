@@ -24,7 +24,7 @@
                         <div class="form-group mt-2">
                             <textarea name="description" rows="2" class="form-control" placeholder="Task description"></textarea>
                         </div>
-                        <div class="col mt-2">
+                        <div class="d-grid gap-2 mt-2">
                             <input type="submit" class="btn btn-success" name="save_task" value="Save Task">
                         </div>
                     </form>

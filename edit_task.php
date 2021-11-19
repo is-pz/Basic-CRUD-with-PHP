@@ -50,7 +50,7 @@ if(isset($_POST['update'])){
                         <div class="form-group mt-2">
                             <textarea name="description" class="form-control" rows="2" placeholder="Update description"><?php echo $row['description'] ?></textarea>
                         </div>
-                        <div class="form-group mt-2">
+                        <div class="form-group d-grid gap-2 mt-2">
                             <input type="submit" class="btn btn-success" name="update" value="Update">
                         </div>
                     </form>
